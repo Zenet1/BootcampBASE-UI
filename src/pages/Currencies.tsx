@@ -17,6 +17,7 @@ export const Currencies = () => {
 	const orderOptions: { label: string; value: string }[] = [
 		{ label: "Nombre", value: "name" },
 		{ label: "Valor", value: "value" },
+		{ label: "Símbolo", value: "symbol" },
 	];
 
 	useEffect(() => {
